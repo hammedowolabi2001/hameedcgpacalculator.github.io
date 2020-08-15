@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cgpa calculator</title>
+    <link rel="stylesheet" href="cgpa.css">
+    <link rel="stylesheet" href="boot/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        
+            <div class="icon"><i class="fas fa-bars" style="font-size: 45px;"></i></div>
+            <div class="app-title text-center align-middle" id="title"><span class="align-middle">CGPA CALCULATOR</span></div>
+        
+    </div>
+
+    <div  id="input-container">
+        
+            <div  id="courses">
+                <h3 class="heading text-center" id="courseHeading">COURSE CODE</span>
+            <ol class="courselist" style="color: black;">
+                <li><input type="text" id="cos_1"></li>
+                <li><input type="text" id="cos_2"></li>
+                <li><input type="text" id="cos_3"></li>
+                <li><input type="text" id="cos_4"></li>
+                <li><input type="text" id="cos_5"></li>
+                <li><input type="text" id="cos_6"></li>
+                <li><input type="text" id="cos_7"></li>
+                <li><input type="text" id="cos_8"></li>
+            </ol>
+            </div>
+
+            <div  id="scores">
+               <h3 class="heading text-center">COURSE SCORES</h3>
+            <ul class="inputList text-center">
+                <li><input type="number" id="sc_1" class="val_1"></li>
+                <li><input type="number" id="sc_2" class="val_2"></li>
+                <li><input type="number" id="sc_3" class="val_3"></li>
+                <li><input type="number" id="sc_4" class="val_4"></li>
+                <li><input type="number" id="sc_5" class="val_5"></li>
+                <li><input type="number" id="sc_6" class="val_6"></li>
+                <li><input type="number" id="sc_7" class="val_7"></li>
+                <li><input type="number" id="sc_8" class="val_8"></li>
+            </ul>
+            </div>
+
+            <div class="unit">
+                <h3 class="heading">COURSE UNITS</h3>
+                <ul class="inputList">
+                    <li><input type="number" id="unt_1" class="val_1"></li>
+                    <li><input type="number" id="unt_2" class="val_2"></li>
+                    <li><input type="number" id="unt_3" class="val_3"></li>
+                    <li><input type="number" id="unt_4" class="val_4"></li>
+                    <li><input type="number" id="unt_5" class="val_5"></li>
+                    <li><input type="number" id="unt_6" class="val_6"></li>
+                    <li><input type="number" id="unt_7" class="val_7"></li>
+                    <li><input type="number" id="unt_8" class="val_8"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid row">
+        <div class="col-4"></div>
+        <div class="col-5">
+            <div class="what" style="margin-bottom: 50px;"></div>
+            <button class="btnget">Get my Gp</button>
+            <button class="btnnext">next semester</button>
+            <button class="cgpa">get my CGPA</button>
+            <div class="resultB" style="margin-top: 50px;">resultB</div>
+        </div>
+
+        
+    </div>
+       
+       
+       
+
+
+
+
+    <div class="row" id="down">
+
+        <div id="GPlist" class="col-5">
+           <div class="gptitle">The GP for successive semesters are</div>
+           <div class="gplist"></div>
+           <img src="remita.png" alt="" class="remita">
+        </div>   
+       
+        <div class="col-5">
+            <img src="footer_logo.png" alt="" class="footer">
+               
+            <div class="Quote">
+                 <br><span class="quote" id="bitter">Bitter is the root of labour. </span><span id="sweet" class="quote">But how sweet is the fruit</span>
+                 <div class="fln"><span class="power">powered</span>  <br> BY AL FULAANI</div>
+            </div>
+        </div>
+       
+       
+        <div class="side">
+            <h3>Developer's info Menu</h3>
+            <img src="profile.jpg" alt=""> 
+            <h6>A front end developer</h6> 
+            <ul id="sidelist">
+                <li>Developer's name<ul><li>Owolabi Hammed Olalekan </li></ul></li>
+                <li>Institution of study <ul><li>Obafemi Awolowo University </li></ul></li>
+                <li>Course of study <ul><li>Computer Sci & Engineering </li></ul></li>
+                <li>Developer's student's info <ul><li><a href="file:///C:/Users/Al-%20Fulaani/Downloads/Obafemi%20Awolowo%20University%20-%20Undergraduate%20Profile.html">click to learn more</a> </li></ul></li>
+                <li>Email address<ul><li>owolabihammed2001@gmail.com </li></ul></li></li>
+                <li>Previous web project
+                    <ul>
+                        <li><a href="file:///C:/Users/Al-%20Fulaani/Desktop/Budget%20APP%20Project/budjetApp.html">Budget App</a> </li>
+                        <li><a href="file:///C:/Users/Al-%20Fulaani/Desktop/MY%20WEB%20PROJECTS/INDEXdom.html">Dice game</a></li>
+                    </ul>
+                </li>
+            
+            </ul>
+               <button class="closeside">close</button>
+           </div>
+       
+       
+       
+     
+   
+     </div>
+    
+     <script src="jquery.min.js"></script>
+     <script src="gp2.js"></script>
+</body>
+</html>
